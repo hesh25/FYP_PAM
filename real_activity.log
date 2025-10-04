@@ -1,0 +1,484 @@
+1,1,BACKUP_DB,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,CHECK_BILLING,Cloud Engineer
+1,1,PROVISION_VM,Cloud Engineer
+1,1,SCALE_CLUSTER,Cloud Engineer
+1,1,UPDATE_IAM,Cloud Engineer
+1,1,CHECK_BILLING,Cloud Engineer
+1,1,PROVISION_VM,Cloud Engineer
+1,1,SCALE_CLUSTER,Cloud Engineer
+1,1,UPDATE_IAM,Cloud Engineer
+1,1,SSH_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,SSH_ROUTER,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SSH_ROUTER,Network Engineer
+1,1,DB_CONNECT,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,START_SERVER,App Developer
+1,1,rm -rf /,App Developer
+1,1,DEPLOY_APP,App Developer
+1,1,GIT_PULL,App Developer
+1,1,CHECK_BILLING,Cloud Engineer
+1,1,PROVISION_VM,Cloud Engineer
+1,1,SCALE_CLUSTER,Cloud Engineer
+1,1,UPDATE_IAM,Cloud Engineer
+1,1,SSH_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,DEPLOY_APP,App Developer
+1,1,GIT_PULL,App Developer
+1,1,START_SERVER,App Developer
+1,1,START_SERVER,App Developer
+1,1,DEPLOY_APP,App Developer
+1,1,PROVISION_VM,Cloud Engineer
+1,1,CHECK_BILLING,Cloud Engineer
+1,1,SCALE_CLUSTER,Cloud Engineer
+1,1,DB_CONNECT,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,CHECK_BILLING,Cloud Engineer
+1,1,DB_CONNECT,Database Admin
+1,1,CHECK_BILLING,Cloud Engineer
+1,1,UPDATE_IAM,Cloud Engineer
+1,1,SCALE_CLUSTER,Cloud Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,SSH_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,SSH_ROUTER,Network Engineer
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,DELETE_TABLE,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,CHECK_FIREWALL,Network Engineer
+1,1,SHUTDOWN_ROUTER,Network Engineer
+1,1,PING_HOST,Network Engineer
+1,1,SSH_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,GIT_PULL,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,rm -rf /,App Developer
+2,1,START_SERVER,App Developer
+2,1,DB_CONNECT,Database Admin
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,GIT_PULL,App Developer
+2,1,rm -rf /,App Developer
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,DEPLOY_APP,App Developer
+2,1,rm -rf /,App Developer
+2,1,GIT_PULL,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,START_SERVER,App Developer
+2,1,SCALE_CLUSTER,Cloud Engineer
+2,1,CHECK_BILLING,Cloud Engineer
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,DEPLOY_APP,App Developer
+2,1,CHECK_BILLING,Cloud Engineer
+2,1,CHECK_BILLING,Cloud Engineer
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,SCALE_CLUSTER,Cloud Engineer
+2,1,PROVISION_VM,Cloud Engineer
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,DB_CONNECT,Database Admin
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,RUN_QUERY,Database Admin
+2,1,DB_CONNECT,Database Admin
+2,1,GIT_PULL,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,START_SERVER,App Developer
+2,1,rm -rf /,App Developer
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,RUN_QUERY,Database Admin
+2,1,DB_CONNECT,Database Admin
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,START_SERVER,App Developer
+2,1,START_SERVER,App Developer
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,CHECK_BILLING,Cloud Engineer
+2,1,SCALE_CLUSTER,Cloud Engineer
+2,1,PROVISION_VM,Cloud Engineer
+2,1,SCALE_CLUSTER,Cloud Engineer
+2,1,SCALE_CLUSTER,Cloud Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,CHECK_FIREWALL,Network Engineer
+2,1,SHUTDOWN_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,SHUTDOWN_ROUTER,Network Engineer
+2,1,CHECK_FIREWALL,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,rm -rf /,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,rm -rf /,App Developer
+2,1,START_SERVER,App Developer
+2,1,GIT_PULL,App Developer
+2,1,RUN_QUERY,Database Admin
+2,1,DB_CONNECT,Database Admin
+2,1,BACKUP_DB,Database Admin
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,RUN_QUERY,Database Admin
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,SCALE_CLUSTER,Cloud Engineer
+2,1,PROVISION_VM,Cloud Engineer
+2,1,CHECK_BILLING,Cloud Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,CHECK_FIREWALL,Network Engineer
+2,1,SHUTDOWN_ROUTER,Network Engineer
+2,1,CHECK_BILLING,Cloud Engineer
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin
+2,1,DEPLOY_APP,App Developer
+2,1,rm -rf /,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,START_SERVER,App Developer
+2,1,rm -rf /,App Developer
+2,1,CHECK_FIREWALL,Network Engineer
+2,1,SHUTDOWN_ROUTER,Network Engineer
+2,1,PING_HOST,Network Engineer
+2,1,SSH_ROUTER,Network Engineer
+2,1,START_SERVER,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,rm -rf /,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,DELETE_TABLE,Database Admin
+2,1,PING_HOST,Network Engineer
+2,1,SHUTDOWN_ROUTER,Network Engineer
+2,1,UPDATE_IAM,Cloud Engineer
+2,1,GIT_PULL,App Developer
+2,1,rm -rf /,App Developer
+2,1,START_SERVER,App Developer
+2,1,DEPLOY_APP,App Developer
+2,1,GIT_PULL,App Developer
+2,1,START_SERVER,App Developer
+2,1,RUN_QUERY,Database Admin
+2,1,DELETE_TABLE,Database Admin
+3,1,DB_CONNECT,Database Admin
+3,1,BACKUP_DB,Database Admin
+3,1,RUN_QUERY,Database Admin
+3,1,DELETE_TABLE,Database Admin
+3,1,SCALE_CLUSTER,Cloud Engineer
+3,1,CHECK_BILLING,Cloud Engineer
+3,1,UPDATE_IAM,Cloud Engineer
+22,1,DELETE_TABLE,Database Admin
+22,1,DEPLOY_APP,App Developer
+22,1,rm -rf /,App Developer
+23,1,rm -rf /,App Developer
+0,1,DELETE_TABLE,App Developer
+0,1,RUN_QUERY,App Developer
+0,1,BACKUP_DB,App Developer
+0,1,DELETE_TABLE,App Developer
+0,1,DELETE_TABLE,App Developer
+0,1,RUN_QUERY,App Developer
+0,1,DELETE_TABLE,App Developer
+0,1,DB_CONNECT,App Developer
+0,1,DELETE_TABLE,App Developer
+1,1,RUN_QUERY,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,DELETE_TABLE,Database Admin
+1,1,RUN_QUERY,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,BACKUP_DB,Database Admin
+1,1,DB_CONNECT,Database Admin
+1,1,BACKUP_DB,Database Admin
+2,1,DELETE_TABLE,Database Admin,bb4ba9e5-53f6-4dc7-b04a-652ca0d3805d
+2,1,DELETE_TABLE,Database Admin,bb4ba9e5-53f6-4dc7-b04a-652ca0d3805d
+2,1,DELETE_TABLE,Database Admin,bb4ba9e5-53f6-4dc7-b04a-652ca0d3805d
+2,1,DELETE_TABLE,Database Admin,c38e29ab-9c2c-4b2c-a977-d5cbee19f591
+2,1,DELETE_TABLE,Database Admin,c38e29ab-9c2c-4b2c-a977-d5cbee19f591
+2,1,DELETE_TABLE,Database Admin,c38e29ab-9c2c-4b2c-a977-d5cbee19f591
+2,1,DELETE_TABLE,Database Admin,c38e29ab-9c2c-4b2c-a977-d5cbee19f591
+2,1,DELETE_TABLE,Database Admin,88744f9b-7502-4b74-8965-268253e8bfc9
+2,1,DELETE_TABLE,Database Admin,88744f9b-7502-4b74-8965-268253e8bfc9
+2,1,DELETE_TABLE,Database Admin,88744f9b-7502-4b74-8965-268253e8bfc9
+2,1,DELETE_TABLE,Database Admin,88744f9b-7502-4b74-8965-268253e8bfc9
+2,1,DELETE_TABLE,Database Admin,88744f9b-7502-4b74-8965-268253e8bfc9
+2,1,DELETE_TABLE,Database Admin,88744f9b-7502-4b74-8965-268253e8bfc9
+2,1,DELETE_TABLE,Database Admin,7cbbe926-1a22-40e9-9652-f583b0a2bd85
+2,1,RUN_QUERY,Database Admin,7cbbe926-1a22-40e9-9652-f583b0a2bd85
+2,1,DELETE_TABLE,Database Admin,7cbbe926-1a22-40e9-9652-f583b0a2bd85
+2,1,DELETE_TABLE,Database Admin,7cbbe926-1a22-40e9-9652-f583b0a2bd85
+2,1,DELETE_TABLE,Database Admin,c6d1e834-c65e-4d99-ac5e-80d042d8d668
+2,1,DELETE_TABLE,Database Admin,c6d1e834-c65e-4d99-ac5e-80d042d8d668
+2,1,RUN_QUERY,Database Admin,c6d1e834-c65e-4d99-ac5e-80d042d8d668
+2,1,BACKUP_DB,Database Admin,c6d1e834-c65e-4d99-ac5e-80d042d8d668
+2,1,DB_CONNECT,Database Admin,c6d1e834-c65e-4d99-ac5e-80d042d8d668
+2,1,DELETE_TABLE,Database Admin,c6d1e834-c65e-4d99-ac5e-80d042d8d668
+2,1,RUN_QUERY,Database Admin,15316b24-2946-4eda-b60c-9ac221c880d8
+2,1,DB_CONNECT,Database Admin,15316b24-2946-4eda-b60c-9ac221c880d8
+2,1,BACKUP_DB,Database Admin,15316b24-2946-4eda-b60c-9ac221c880d8
+2,1,BACKUP_DB,Database Admin,15316b24-2946-4eda-b60c-9ac221c880d8
+2,1,DB_CONNECT,Database Admin,15316b24-2946-4eda-b60c-9ac221c880d8
+2,1,RUN_QUERY,Database Admin,15316b24-2946-4eda-b60c-9ac221c880d8
+2,1,DB_CONNECT,Database Admin,d7b6f0af-9dce-4543-a38c-8e075d313e95
+2,1,RUN_QUERY,Database Admin,d7b6f0af-9dce-4543-a38c-8e075d313e95
+2,1,BACKUP_DB,Database Admin,d7b6f0af-9dce-4543-a38c-8e075d313e95
+2,1,RUN_QUERY,Database Admin,e9ee8c65-fdc9-4511-a465-29943b309e40
+2,1,DB_CONNECT,Database Admin,e9ee8c65-fdc9-4511-a465-29943b309e40
+2,1,BACKUP_DB,Database Admin,e9ee8c65-fdc9-4511-a465-29943b309e40
+2,1,RUN_QUERY,Database Admin,a2e56d70-a7d7-428f-9a52-7c48a3bbedd7
+2,1,DB_CONNECT,Database Admin,a2e56d70-a7d7-428f-9a52-7c48a3bbedd7
+2,1,BACKUP_DB,Database Admin,a2e56d70-a7d7-428f-9a52-7c48a3bbedd7
+2,1,DELETE_TABLE,Database Admin,a2e56d70-a7d7-428f-9a52-7c48a3bbedd7
+2,1,DELETE_TABLE,Database Admin,a2e56d70-a7d7-428f-9a52-7c48a3bbedd7
+2,1,DELETE_TABLE,Database Admin,a2e56d70-a7d7-428f-9a52-7c48a3bbedd7
+2,1,RUN_QUERY,Database Admin,373a2cf0-89c1-4bf0-87b0-ea74143bc0ca
+2,1,DB_CONNECT,Database Admin,373a2cf0-89c1-4bf0-87b0-ea74143bc0ca
+2,1,BACKUP_DB,Database Admin,373a2cf0-89c1-4bf0-87b0-ea74143bc0ca
+2,1,RUN_QUERY,Database Admin,db622fa5-478d-4bab-adaa-83a65cf5703d
+2,1,DB_CONNECT,Database Admin,db622fa5-478d-4bab-adaa-83a65cf5703d
+2,1,BACKUP_DB,Database Admin,db622fa5-478d-4bab-adaa-83a65cf5703d
+2,1,DELETE_TABLE,Database Admin,db622fa5-478d-4bab-adaa-83a65cf5703d
+2,1,DELETE_TABLE,Database Admin,db622fa5-478d-4bab-adaa-83a65cf5703d
+2,1,DELETE_TABLE,Database Admin,db622fa5-478d-4bab-adaa-83a65cf5703d
+2,1,RUN_QUERY,Database Admin,b59d400d-c4cb-4e4d-aa42-90a7a923e10c
+2,1,DB_CONNECT,Database Admin,b59d400d-c4cb-4e4d-aa42-90a7a923e10c
+2,1,BACKUP_DB,Database Admin,b59d400d-c4cb-4e4d-aa42-90a7a923e10c
+2,1,DELETE_TABLE,Database Admin,b59d400d-c4cb-4e4d-aa42-90a7a923e10c
+2,1,DELETE_TABLE,Database Admin,b59d400d-c4cb-4e4d-aa42-90a7a923e10c
+2,1,DELETE_TABLE,Database Admin,b59d400d-c4cb-4e4d-aa42-90a7a923e10c
+12,1,DB_CONNECT,Database Admin,5c267e36-3f0e-42db-a7f3-35f2e129a622
+12,1,RUN_QUERY,Database Admin,5c267e36-3f0e-42db-a7f3-35f2e129a622
+12,1,BACKUP_DB,Database Admin,5c267e36-3f0e-42db-a7f3-35f2e129a622
+12,1,DELETE_TABLE,Database Admin,8bb2137e-dea6-45f7-8c70-33748e7b6470
+12,1,DELETE_TABLE,Database Admin,8bb2137e-dea6-45f7-8c70-33748e7b6470
+12,1,DELETE_TABLE,Database Admin,8bb2137e-dea6-45f7-8c70-33748e7b6470
+14,1,DB_CONNECT,Database Admin,1476c61b-6cb1-4ac1-8a22-e692909b5f7b
+14,1,RUN_QUERY,Database Admin,1476c61b-6cb1-4ac1-8a22-e692909b5f7b
+14,1,BACKUP_DB,Database Admin,1476c61b-6cb1-4ac1-8a22-e692909b5f7b
+14,1,DELETE_TABLE,Database Admin,1476c61b-6cb1-4ac1-8a22-e692909b5f7b
+14,1,RUN_QUERY,Database Admin,6024fe5a-d85a-4601-a321-9be221674a29
+14,1,DB_CONNECT,Database Admin,6024fe5a-d85a-4601-a321-9be221674a29
+14,1,BACKUP_DB,Database Admin,6024fe5a-d85a-4601-a321-9be221674a29
+14,1,DELETE_TABLE,Database Admin,6024fe5a-d85a-4601-a321-9be221674a29
+14,1,DELETE_TABLE,Database Admin,6024fe5a-d85a-4601-a321-9be221674a29
+14,1,DELETE_TABLE,Database Admin,6024fe5a-d85a-4601-a321-9be221674a29
+14,1,DB_CONNECT,Database Admin,56e699e2-49a8-4de5-b64f-7012cd21d4b1
+14,1,BACKUP_DB,Database Admin,56e699e2-49a8-4de5-b64f-7012cd21d4b1
+0,1,BACKUP_DB,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,DB_CONNECT,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,RUN_QUERY,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,DB_CONNECT,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,DELETE_TABLE,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,DELETE_TABLE,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,DELETE_TABLE,Database Admin,51a6ae2e-91d8-45a9-9a16-7dfd5a951adf
+0,1,CHECK_FIREWALL,Network Engineer,49553f84-7fed-405e-bdfe-922757c50eb1
+0,1,SSH_ROUTER,Network Engineer,49553f84-7fed-405e-bdfe-922757c50eb1
+0,1,PING_HOST,Network Engineer,49553f84-7fed-405e-bdfe-922757c50eb1
+0,1,SHUTDOWN_ROUTER,Network Engineer,49553f84-7fed-405e-bdfe-922757c50eb1
+0,1,SHUTDOWN_ROUTER,Network Engineer,49553f84-7fed-405e-bdfe-922757c50eb1
+0,1,SHUTDOWN_ROUTER,Network Engineer,49553f84-7fed-405e-bdfe-922757c50eb1
+0,1,DB_CONNECT,Database Admin,d777c3eb-ae18-40a9-be21-2efa6036cc74,{"target_db": "Production-Users-DB"; "query": ""}
+1,1,PING_HOST,Network Engineer,337076ff-3822-4264-9ec1-3b7259251564,{"target_ip": "192.168.45.1"}
+1,1,DELETE_TABLE,Network Engineer,337076ff-3822-4264-9ec1-3b7259251564,{"target_db": "Production-Users-DB"; "query": ""}
+1,1,BACKUP_DB,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"target_db": "Production-Users-DB"}
+1,1,DELETE_TABLE,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"table_name": "users"}
+1,1,BACKUP_DB,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"target_db": "Production-Users-DB"}
+1,1,RUN_QUERY,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"query": "SELECT * FROM Employees;"}
+1,1,DB_CONNECT,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"target_db": "Staging-Orders-DB"}
+1,1,RUN_QUERY,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"query": "SELECT * FROM Employees;"}
+1,1,DB_CONNECT,Network Engineer,054e63a3-e72f-408e-b021-830f3b5eaeec,{"target_db": "Staging-Orders-DB"}
+1,1,DB_CONNECT,Database Admin,fc5a5c36-e576-45a8-8dcb-c2d1c694617f,{"target_db": "Staging-Orders-DB"}
+1,1,RUN_QUERY,Database Admin,fc5a5c36-e576-45a8-8dcb-c2d1c694617f,{"query": "SELECT FirstName; LastName; Salary FROM Employees;"}
+1,1,DELETE_TABLE,Database Admin,fc5a5c36-e576-45a8-8dcb-c2d1c694617f,{"table_name": "users"}
+1,1,RUN_QUERY,Database Admin,fc5a5c36-e576-45a8-8dcb-c2d1c694617f,{"query": "SELECT * FROM users;"}
+1,1,DB_CONNECT,Database Admin,15fd974e-5a87-4534-9f85-a2588d8c8002,{"target_db": "Production-Users-DB"}
+1,1,RUN_QUERY,Database Admin,15fd974e-5a87-4534-9f85-a2588d8c8002,{"query": "SELECT * FROM Employees;"}
+1,1,DELETE_TABLE,Database Admin,15fd974e-5a87-4534-9f85-a2588d8c8002,{"table_name": "users"}
+1,1,CHECK_FIREWALL,Database Admin,27ac5536-e67b-4334-bec4-6ca248ce670b,{"port_checked": "192.168.55.34:443"}
+1,1,SSH_ROUTER,Database Admin,27ac5536-e67b-4334-bec4-6ca248ce670b,{"target_host": "192.168.76.54"}
+1,1,PING_HOST,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"target_host": "192.168.23.23"}
+1,1,DB_CONNECT,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"target_db": "Production-Users-DB"}
+1,1,RUN_QUERY,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"query": "iu"}
+1,1,RUN_QUERY,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"query": "iu"}
+1,1,RUN_QUERY,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"query": "iu"}
+1,1,BACKUP_DB,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"target_db": "Production-Users-DB"}
+1,1,DELETE_TABLE,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"table_name": "users"}
+1,1,DELETE_TABLE,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"table_name": "customer"}
+1,1,DELETE_TABLE,Network Engineer,68191f5e-3f0c-4360-8bf6-8e354b245150,{"table_name": "vendors"}
+1,1,PING_HOST,Network Engineer,de61b805-fc5e-4872-978e-5205c9498597,{"target_host": "192.168.23.23"}
+1,1,CHECK_FIREWALL,Network Engineer,de61b805-fc5e-4872-978e-5205c9498597,{"port_checked": "192.168.23.23:8080"}
+1,1,SSH_ROUTER,Network Engineer,de61b805-fc5e-4872-978e-5205c9498597,{"target_host": "192.168.76.77"}
+1,1,SHUTDOWN_ROUTER,Network Engineer,de61b805-fc5e-4872-978e-5205c9498597,{"target_host": "paloalto_new"}
+15,1,SSH_ROUTER,Network Engineer,38cbd255-e506-4db7-bffd-3dceab84bc45,{"target_host": "192.168.45.67"}
+15,1,PING_HOST,Network Engineer,38cbd255-e506-4db7-bffd-3dceab84bc45,{"target_host": "192.168.23.23"}
+15,1,CHECK_FIREWALL,Network Engineer,38cbd255-e506-4db7-bffd-3dceab84bc45,{"port_checked": "192.168.45.33:8080"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,38cbd255-e506-4db7-bffd-3dceab84bc45,{"target_host": "paloalto"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,38cbd255-e506-4db7-bffd-3dceab84bc45,{"target_host": "paloalto"}
+15,1,DELETE_TABLE,Database Admin,30c68569-ab40-4bf4-b7d0-456552819342,{"table_name": "users"}
+15,1,DB_CONNECT,Database Admin,30c68569-ab40-4bf4-b7d0-456552819342,{"target_db": "Production-Users-DB"}
+15,1,BACKUP_DB,Database Admin,30c68569-ab40-4bf4-b7d0-456552819342,{"target_db": "Production-Users-DB"}
+15,1,SSH_ROUTER,Network Engineer,c96e9f4e-1f29-4d71-8c08-4fc51c4ad6de,{"target_host": "192.168.45.67"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,c96e9f4e-1f29-4d71-8c08-4fc51c4ad6de,{"target_host": "paloalto"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,c96e9f4e-1f29-4d71-8c08-4fc51c4ad6de,{"target_host": "paloalto"}
+15,1,DELETE_TABLE,Database Admin,30c68569-ab40-4bf4-b7d0-456552819342,{"table_name": "users"}
+15,1,DELETE_TABLE,Database Admin,30c68569-ab40-4bf4-b7d0-456552819342,{"table_name": "users"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,c96e9f4e-1f29-4d71-8c08-4fc51c4ad6de,{"target_host": "paloalto"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,c96e9f4e-1f29-4d71-8c08-4fc51c4ad6de,{"target_host": "paloalto"}
+15,1,BACKUP_DB,Database Admin,d2e06e1c-a8ea-4b5e-a955-c697a601fb53,{"target_db": "Production-Users-DB"}
+15,1,DB_CONNECT,Database Admin,d2e06e1c-a8ea-4b5e-a955-c697a601fb53,{"target_db": "Staging-Orders-DB"}
+15,1,DELETE_TABLE,Database Admin,d2e06e1c-a8ea-4b5e-a955-c697a601fb53,{"table_name": "vendors"}
+15,1,SSH_ROUTER,Network Engineer,98fbf154-acb3-4ebb-a958-5c2f5cdcedaa,{"target_host": "192.168.45.67"}
+15,1,PING_HOST,Network Engineer,98fbf154-acb3-4ebb-a958-5c2f5cdcedaa,{"target_host": "192.168.23.23"}
+15,1,CHECK_FIREWALL,Network Engineer,98fbf154-acb3-4ebb-a958-5c2f5cdcedaa,{"port_checked": "192.168.45.33:8080"}
+15,1,SHUTDOWN_ROUTER,Network Engineer,98fbf154-acb3-4ebb-a958-5c2f5cdcedaa,{"target_host": "paloalto"}
+15,1,DB_CONNECT,Database Admin,b4a4ff5e-3fa4-4362-b019-addcd4382b8d,{"target_db": "Production-Users-DB"}
+15,1,RUN_QUERY,Database Admin,b4a4ff5e-3fa4-4362-b019-addcd4382b8d,{"query": "SELECT * FROM employees;"}
+15,1,BACKUP_DB,Database Admin,b4a4ff5e-3fa4-4362-b019-addcd4382b8d,{"target_db": "Production-Users-DB"}
+15,1,DELETE_TABLE,Database Admin,b4a4ff5e-3fa4-4362-b019-addcd4382b8d,{"table_name": "vendors"}
+15,1,DELETE_TABLE,Database Admin,b4a4ff5e-3fa4-4362-b019-addcd4382b8d,{"table_name": "Userstests"}
+15,1,DB_CONNECT,Database Admin,49fdbae1-76f2-4639-82fd-ed1d1b2528ba,{"target_db": "Production-Users-DB"}
+15,1,DB_CONNECT,Database Admin,49fdbae1-76f2-4639-82fd-ed1d1b2528ba,{"target_db": "Production-Users-DB"}
+15,1,DB_CONNECT,Database Admin,49fdbae1-76f2-4639-82fd-ed1d1b2528ba,{"target_db": "Production-Users-DB"}
+15,1,DB_CONNECT,Database Admin,49fdbae1-76f2-4639-82fd-ed1d1b2528ba,{"target_db": "Production-Users-DB"}
+15,1,DB_CONNECT,Database Admin,49fdbae1-76f2-4639-82fd-ed1d1b2528ba,{"target_db": "Production-Users-DB"}
+15,1,DELETE_TABLE,Database Admin,49fdbae1-76f2-4639-82fd-ed1d1b2528ba,{"table_name": "users"}
+17,1,DB_CONNECT,Database Admin,d9f58134-8611-4205-89de-2a8685a9b062,{"target_db": "Production-Users-DB"}
+17,1,BACKUP_DB,Database Admin,d9f58134-8611-4205-89de-2a8685a9b062,{"target_db": "Production-Users-DB"}
+17,1,BACKUP_DB,Database Admin,d9f58134-8611-4205-89de-2a8685a9b062,{"target_db": "Production-Users-DB"}
+21,1,DB_CONNECT,Database Admin,1bac92ac-b153-4191-ba2a-e6c6060818f8,{"target_db": "Staging-Orders-DB"}
+21,1,DELETE_TABLE,Database Admin,1bac92ac-b153-4191-ba2a-e6c6060818f8,{"table_name": "users"}
+21,1,DELETE_TABLE,Database Admin,1bac92ac-b153-4191-ba2a-e6c6060818f8,{"table_name": "User_id"}
+21,1,SHUTDOWN_ROUTER,Network Engineer,b4549c11-8fbd-4553-8a48-d17b97585056,{"target_host": "paloalto"}
+23,1,DB_CONNECT,Database Admin,3dc76998-5600-4c1e-8bcd-92f82e8be86c,{"target_db": "Production-Users-DB"}
+23,1,RUN_QUERY,Database Admin,3dc76998-5600-4c1e-8bcd-92f82e8be86c,{"query": "SELECT * FROM employees;"}
+23,1,BACKUP_DB,Database Admin,3dc76998-5600-4c1e-8bcd-92f82e8be86c,{"target_db": "Production-Users-DB"}
+23,1,DELETE_TABLE,Database Admin,3dc76998-5600-4c1e-8bcd-92f82e8be86c,{"table_name": "vendors"}
+23,1,BACKUP_DB,Database Admin,3dc76998-5600-4c1e-8bcd-92f82e8be86c,{"target_db": "Production-Users-DB"}
+23,1,BACKUP_DB,Database Admin,3dc76998-5600-4c1e-8bcd-92f82e8be86c,{"target_db": "Production-Users-DB"}
+1,1,DB_CONNECT,Database Admin,8356aeaf-ce55-4641-b696-f602df50e682,{"target_db": "Production-Users-DB"}
+1,1,BACKUP_DB,Database Admin,8356aeaf-ce55-4641-b696-f602df50e682,{"target_db": "Production-Users-DB"}
+1,1,DELETE_TABLE,Database Admin,8356aeaf-ce55-4641-b696-f602df50e682,{"table_name": "vendors"}
+1,1,SSH_ROUTER,Network Engineer,58ca2fb8-8a2f-4908-bc85-ad6f54007b5b,{"target_host": "192.168.45.67"}
+1,1,PING_HOST,Network Engineer,58ca2fb8-8a2f-4908-bc85-ad6f54007b5b,{"target_host": "192.168.23.23"}
+1,1,SHUTDOWN_ROUTER,Network Engineer,58ca2fb8-8a2f-4908-bc85-ad6f54007b5b,{"target_host": "paloalto"}
+17,1,DB_CONNECT,Database Admin,a62009c8-b365-4997-ad77-dd76cfb8b549,{"target_db": "Production-Users-DB"}
+17,1,RUN_QUERY,Database Admin,a62009c8-b365-4997-ad77-dd76cfb8b549,{"query": "SELECT first_name; salary FROM employees;"}
+17,1,BACKUP_DB,Database Admin,a62009c8-b365-4997-ad77-dd76cfb8b549,{"target_db": "Production-Users-DB"}
+17,1,DELETE_TABLE,Database Admin,a62009c8-b365-4997-ad77-dd76cfb8b549,{"table_name": "vendors"}
+0,1,SHUTDOWN_ROUTER,Network Engineer,68bf5455-6ceb-4730-ab1a-4a0c7fcf05b7,{"target_host": "paloalto"}
+0,1,SHUTDOWN_ROUTER,Network Engineer,68bf5455-6ceb-4730-ab1a-4a0c7fcf05b7,{"target_host": "cicsor01"}
+1,1,DELETE_TABLE,Database Admin,313d7773-98a7-430d-9b92-7adbe67e6b1d,{"table_name": "users"}
+1,1,DELETE_TABLE,Database Admin,313d7773-98a7-430d-9b92-7adbe67e6b1d,{"table_name": "internal_staff"}
+1,1,DELETE_TABLE,Database Admin,313d7773-98a7-430d-9b92-7adbe67e6b1d,{"table_name": "internal_Developers"}
+1,1,SSH_ROUTER,Network Engineer,a4ec1f0f-8145-492e-aaae-4e9fcb28a111,{"target_host": "192.168.45.67"}
+1,1,PING_HOST,Network Engineer,a4ec1f0f-8145-492e-aaae-4e9fcb28a111,{"target_host": "192.168.23.23"}
+1,1,SHUTDOWN_ROUTER,Network Engineer,a4ec1f0f-8145-492e-aaae-4e9fcb28a111,{"target_host": "internalR1"}
+2,1,PING_HOST,Network Engineer,0892ba20-b7ad-426b-b4df-0a11ebf8138d,{"target_host": "192.168.23.23"}
+2,1,SSH_ROUTER,Network Engineer,0892ba20-b7ad-426b-b4df-0a11ebf8138d,{"target_host": "192.168.45.67"}
+2,1,SHUTDOWN_ROUTER,Network Engineer,0892ba20-b7ad-426b-b4df-0a11ebf8138d,{"target_host": "paloalto"}
+2,1,CHECK_FIREWALL,Network Engineer,0892ba20-b7ad-426b-b4df-0a11ebf8138d,{"port_checked": "192.168.45.33:8080"}
+19,1,DB_CONNECT,Database Admin,80bc0d4c-918e-438a-870b-d07136476e20,{"target_db": "Production-Users-DB"}
+20,1,RUN_QUERY,Database Admin,80bc0d4c-918e-438a-870b-d07136476e20,{"query": "SELECT * FROM employees;"}
+20,1,SHUTDOWN_ROUTER,Network Engineer,a831d822-2595-47f9-88ef-02610dbee846,{"target_host": "paloaltoR3"}
+20,1,DELETE_TABLE,Network Engineer,a831d822-2595-47f9-88ef-02610dbee846,{"table_name": "internal_Developers"}
+20,1,CHECK_FIREWALL,Network Engineer,a831d822-2595-47f9-88ef-02610dbee846,{"port_checked": "192.168.45.33:8080"}
+20,1,PING_HOST,Network Engineer,a831d822-2595-47f9-88ef-02610dbee846,{"target_host": "192.168.23.23"}
+20,1,SSH_ROUTER,Network Engineer,a831d822-2595-47f9-88ef-02610dbee846,{"target_host": "192.168.45.67"}
+20,1,SSH_ROUTER,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"target_host": "192.168.45.67"}
+20,1,PING_HOST,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"target_host": "192.168.23.23"}
+20,1,CHECK_FIREWALL,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"port_checked": "192.168.45.33:8080"}
+20,1,SHUTDOWN_ROUTER,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"target_host": "paloaltoR3"}
+20,1,DB_CONNECT,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"target_db": "Production-Users-DB"}
+20,1,DB_CONNECT,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"target_db": "Staging-Orders-DB"}
+20,1,RUN_QUERY,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"query": "SELECT first_name; salary FROM employees;"}
+20,1,BACKUP_DB,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"target_db": "Staging-Orders-DB"}
+20,1,DELETE_TABLE,Network Engineer,960ca980-088b-4ff6-a7cf-555a6cc37c73,{"table_name": "vendors"}
+20,1,DB_CONNECT,Database Admin,ebe4af70-599d-416e-af04-08b3ea7e7e4e,{"target_db": "Production-Users-DB"}
+20,1,BACKUP_DB,Database Admin,ebe4af70-599d-416e-af04-08b3ea7e7e4e,{"target_db": "Production-Users-DB"}
+22,1,SSH_ROUTER,Network Engineer,c16db8e9-e940-4cb7-8268-d162e838ae5e,{"target_host": "192.168.45.67"}
+15,1,DB_CONNECT,Database Admin,d93aebec-b122-41b7-b097-679bea01ee7e,{"target_db": "Production-Users-DB"}
+15,1,RUN_QUERY,Database Admin,d93aebec-b122-41b7-b097-679bea01ee7e,{"query": "SELECT * FROM employees;"}
+15,1,BACKUP_DB,Database Admin,d93aebec-b122-41b7-b097-679bea01ee7e,{"target_db": "Production-Users-DB"}
+15,1,DELETE_TABLE,Database Admin,d93aebec-b122-41b7-b097-679bea01ee7e,{"table_name": "users"}
+15,1,DELETE_TABLE,Database Admin,d93aebec-b122-41b7-b097-679bea01ee7e,{"table_name": "customer"}
+15,1,DELETE_TABLE,Database Admin,d93aebec-b122-41b7-b097-679bea01ee7e,{"table_name": "internal_Developers"}
+18,1,SHUTDOWN_ROUTER,Network Engineer,abe49ad9-1c49-4018-a23a-de021dabb340,{"target_host": "paloaltoR3"}
+18,1,DELETE_TABLE,Network Engineer,abe49ad9-1c49-4018-a23a-de021dabb340,{"table_name": "User_id"}
+18,1,DELETE_TABLE,Network Engineer,abe49ad9-1c49-4018-a23a-de021dabb340,{"table_name": "User_id"}
+18,1,SHUTDOWN_ROUTER,Network Engineer,0db73ae6-1115-4850-a98e-459f6025e312,{"target_host": "paloalto"}
+18,1,BACKUP_DB,Database Admin,0e310c80-c888-406d-b5d9-d34f973c9a5d,{"target_db": "Production-Users-DB"}
+18,1,DELETE_TABLE,Database Admin,0e310c80-c888-406d-b5d9-d34f973c9a5d,{"table_name": "vendors"}
+18,1,BACKUP_DB,Database Admin,0e310c80-c888-406d-b5d9-d34f973c9a5d,{"target_db": "Production-Users-DB"}
+18,1,DELETE_TABLE,Database Admin,0e310c80-c888-406d-b5d9-d34f973c9a5d,{"table_name": "vendors"}
+18,1,DELETE_TABLE,Database Admin,0e310c80-c888-406d-b5d9-d34f973c9a5d,{"table_name": "vendors"}
+0,1,DB_CONNECT,Database Admin,1f332c0a-fd4d-4894-980e-a09ad332ad34,{"target_db": "Production-Users-DB"}
+0,1,DELETE_TABLE,Database Admin,1f332c0a-fd4d-4894-980e-a09ad332ad34,{"table_name": "internal_Developers"}
+12,1,DB_CONNECT,Database Admin,3e34e9de-0f3b-475f-bad4-9e7c87282503,{"target_db": "Production-Users-DB"}
+12,1,DELETE_TABLE,Database Admin,3e34e9de-0f3b-475f-bad4-9e7c87282503,{"table_name": "internal_Developers"}
+12,1,BACKUP_DB,Database Admin,3e34e9de-0f3b-475f-bad4-9e7c87282503,{"target_db": "Production-Users-DB"}
+12,1,RUN_QUERY,Database Admin,3e34e9de-0f3b-475f-bad4-9e7c87282503,{"query": "SELECT * FROM employees;"}
+14,1,DB_CONNECT,Database Admin,ee8c020e-7612-4f08-b6a6-93b4298553f1,{"target_db": "Production-Users-DB"}
+14,1,DELETE_TABLE,Database Admin,ee8c020e-7612-4f08-b6a6-93b4298553f1,{"table_name": "internal_Developers"}
+14,1,DELETE_TABLE,Database Admin,ee8c020e-7612-4f08-b6a6-93b4298553f1,{"table_name": "vendors"}
+14,1,DELETE_TABLE,Database Admin,ee8c020e-7612-4f08-b6a6-93b4298553f1,{"table_name": "users"}

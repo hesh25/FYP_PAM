@@ -1,0 +1,82 @@
+{
+  "response_times": {
+    "Dashboard Load": {
+      "average_ms": 25.96888542175293,
+      "p95_ms": 44.62407827377319,
+      "max_ms": 46.2644100189209,
+      "min_ms": 5.377531051635742,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "Login Page Load": {
+      "average_ms": 13.209290504455566,
+      "p95_ms": 28.294038772583008,
+      "max_ms": 30.67302703857422,
+      "min_ms": 0.0,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "Portal Access": {
+      "average_ms": 23.839163780212402,
+      "p95_ms": 44.918859004974365,
+      "max_ms": 47.042131423950195,
+      "min_ms": 5.663871765136719,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "User Info API": {
+      "average_ms": 12.180399894714355,
+      "p95_ms": 26.295697689056396,
+      "max_ms": 49.466848373413086,
+      "min_ms": 0.0,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "Active Sessions": {
+      "average_ms": 10.301828384399414,
+      "p95_ms": 22.81959056854248,
+      "max_ms": 26.239633560180664,
+      "min_ms": 0.0,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "Settings API": {
+      "average_ms": 13.668603897094727,
+      "p95_ms": 26.166605949401855,
+      "max_ms": 32.372236251831055,
+      "min_ms": 0.0,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "All Events API": {
+      "average_ms": 10.925383567810059,
+      "p95_ms": 24.422383308410645,
+      "max_ms": 27.580976486206055,
+      "min_ms": 0.0,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "Risk Analysis": {
+      "average_ms": 11.786789894104004,
+      "p95_ms": 24.92070198059082,
+      "max_ms": 26.792526245117188,
+      "min_ms": 0.0,
+      "success_rate": 100.0,
+      "total_requests": 50
+    },
+    "Action Logging": {
+      "average_ms": 13.855938911437988,
+      "p95_ms": 26.118242740631104,
+      "max_ms": 28.179168701171875,
+      "min_ms": 1.1479854583740234,
+      "success_rate": 100.0,
+      "total_requests": 50
+    }
+  },
+  "system_info": {
+    "cpu_percent": 12.6,
+    "memory_percent": 81.8,
+    "disk_percent": 47.7
+  },
+  "timestamp": "2025-08-30T21:15:32.876827"
+}

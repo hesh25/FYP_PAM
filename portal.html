@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>PAM Access Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-800 text-gray-200 p-8">
+    <div class="max-w-3xl mx-auto">
+        <div class="flex justify-between items-center mb-6">
+            <div>
+                <h1 class="text-3xl font-bold text-cyan-400">Privileged Access Portal</h1>
+                <p id="welcome-message" class="text-gray-400"></p>
+            </div>
+            <div>
+            
+                <a href="/login.html" class="text-sm text-gray-400 hover:underline">Logout</a>
+            </div>
+        </div>
+        
+        <div id="db-admin-panel" class="hidden p-6 bg-gray-900 rounded-lg space-y-6">
+            <h2 class="text-xl font-semibold flex items-center"><i class="fas fa-database mr-3 text-cyan-400"></i>Database Admin Controls</h2>
+            
+            <div class="p-4 border border-gray-700 rounded-lg">
+                <label for="db-connect-select" class="block mb-2 text-sm font-medium">1. Connect to Database</label>
+                <div class="flex items-center space-x-4">
+                    <select id="db-connect-select" class="flex-grow bg-gray-700 border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5">
+                        <option>Production-Users-DB</option>
+                        <option>Staging-Orders-DB</option>
+                    </select>
+                    <button onclick="handleDbConnect()" class="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded-lg">Connect</button>
+                </div>
+            </div>
+            <div class="p-4 border border-gray-700 rounded-lg">
+                <label for="db-query-textarea" class="block mb-2 text-sm font-medium">2. Run SQL Query</label>
+                <textarea id="db-query-textarea" rows="4" class="bg-gray-700 font-mono border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5" placeholder="SELECT * FROM customers WHERE country = 'LK';"></textarea>
+                <button onclick="handleRunQuery()" class="mt-2 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Run Query</button>
+            </div>
+            <div class="p-4 border border-gray-700 rounded-lg">
+                <label class="block mb-2 text-sm font-medium">3. Perform Database Backup</label>
+                <p class="text-xs text-gray-400 mb-2">This will initiate a full backup of the selected database.</p>
+                <button onclick="handleBackup()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg">Start Full Backup</button>
+            </div>
+            <div class="p-4 border border-red-500/50 rounded-lg">
+                <label for="db-delete-input" class="block mb-2 text-sm font-medium text-red-400">4. Delete Table (High Risk)</label>
+                <div class="flex items-center space-x-4">
+                    <input type="text" id="db-delete-input" class="flex-grow bg-gray-700 font-mono border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5" placeholder="Enter table name to delete">
+                    <button onclick="handleDeleteTable()" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="network-engineer-panel" class="hidden p-6 bg-gray-900 rounded-lg space-y-6">
+            <h2 class="text-xl font-semibold flex items-center"><i class="fas fa-network-wired mr-3 text-cyan-400"></i>Network Engineer Controls</h2>
+
+            <div class="p-4 border border-gray-700 rounded-lg">
+                <label for="ssh-input" class="block mb-2 text-sm font-medium">1. SSH to Router</label>
+                <div class="flex items-center space-x-4">
+                    <input type="text" id="ssh-input" class="flex-grow bg-gray-700 font-mono border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5" placeholder="Enter router IP or hostname">
+                    <button onclick="handleSshRouter()" class="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded-lg">Connect</button>
+                </div>
+            </div>
+            <div class="p-4 border border-gray-700 rounded-lg">
+                <label for="ping-input" class="block mb-2 text-sm font-medium">2. Ping Host</label>
+                <div class="flex items-center space-x-4">
+                    <input type="text" id="ping-input" class="flex-grow bg-gray-700 font-mono border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5" placeholder="Enter IP or hostname to ping">
+                    <button onclick="handlePingHost()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg">Ping</button>
+                </div>
+            </div>
+            <div class="p-4 border border-gray-700 rounded-lg">
+                <label for="firewall-input" class="block mb-2 text-sm font-medium">2. Check Firewall Port Status</label>
+                <div class="flex items-center space-x-4">
+                    <input type="text" id="firewall-input" class="flex-grow bg-gray-700 font-mono border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5" placeholder="Enter port number (e.g., 443)">
+                    <button onclick="handleCheckFirewall()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Check Port</button>
+                </div>
+            </div>
+            <div class="p-4 border border-red-500/50 rounded-lg">
+                <label for="shutdown-input" class="block mb-2 text-sm font-medium text-red-400">3. Shutdown Router (High Risk)</label>
+                <div class="flex items-center space-x-4">
+                    <input type="text" id="shutdown-input" class="flex-grow bg-gray-700 font-mono border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5" placeholder="Confirm router hostname">
+                    <button onclick="handleShutdownRouter()" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg">Shutdown</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="default-panel" class="hidden p-6 bg-gray-900 rounded-lg"></div>
+
+        <p id="feedback" class="text-green-400 mt-4 h-6"></p>
+    </div>
+
+    <script>
+        let currentUser = null;
+        const feedback = document.getElementById('feedback');
+
+        // Main function to log any action to the backend
+        async function logAction(action, details) {
+            feedback.textContent = `Executing "${action}"...`;
+            const response = await fetch('/execute_action', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action, details })
+            });
+            if (response.ok) {
+                feedback.textContent = `Action "${action}" logged successfully!`;
+                setTimeout(() => feedback.textContent = '', 2000);
+            } else {
+                window.location.href = '/access-revoked';
+            }
+        }
+
+        // --- Handlers for Database Admin ---
+        function handleDbConnect() {
+            const dbName = document.getElementById('db-connect-select').value;
+            logAction('DB_CONNECT', { target_db: dbName });
+        }
+        function handleRunQuery() {
+            const query = document.getElementById('db-query-textarea').value;
+            if (!query) { feedback.textContent = 'Query cannot be empty.'; setTimeout(() => feedback.textContent = '', 2000); return; }
+            logAction('RUN_QUERY', { query: query });
+        }
+        function handleBackup() {
+            const dbName = document.getElementById('db-connect-select').value;
+            logAction('BACKUP_DB', { target_db: dbName });
+        }
+        function handleDeleteTable() {
+            const tableName = document.getElementById('db-delete-input').value;
+            if (!tableName) { feedback.textContent = 'Table name cannot be empty.'; setTimeout(() => feedback.textContent = '', 2000); return; }
+            logAction('DELETE_TABLE', { table_name: tableName });
+        }
+
+        // --- NEW: Handlers for Network Engineer ---
+        function handleSshRouter() {
+            const target = document.getElementById('ssh-input').value;
+            if (!target) { feedback.textContent = 'Target IP/Hostname cannot be empty.'; setTimeout(() => feedback.textContent = '', 2000); return; }
+            logAction('SSH_ROUTER', { target_host: target });
+        }
+        function handlePingHost() {
+            const target = document.getElementById('ping-input').value;
+            if (!target) { feedback.textContent = 'Target IP/Hostname for ping cannot be empty.'; setTimeout(() => feedback.textContent = '', 2000); return; }
+            logAction('PING_HOST', { target_host: target });
+        }
+        function handleCheckFirewall() {
+            const port = document.getElementById('firewall-input').value;
+            if (!port) { feedback.textContent = 'Port number cannot be empty.'; setTimeout(() => feedback.textContent = '', 2000); return; }
+            logAction('CHECK_FIREWALL', { port_checked: port });
+        }
+        function handleShutdownRouter() {
+            const target = document.getElementById('shutdown-input').value;
+            if (!target) { feedback.textContent = 'Router hostname cannot be empty for confirmation.'; setTimeout(() => feedback.textContent = '', 2000); return; }
+            logAction('SHUTDOWN_ROUTER', { target_host: target });
+        }
+
+        // This function runs once when the page loads
+        async function initializePortal() {
+            const response = await fetch('/api/user_info');
+            if (!response.ok) { window.location.href = '/login'; return; }
+            currentUser = await response.json();
+            
+            document.getElementById('welcome-message').textContent = `Welcome, ${currentUser.name}.`;
+
+            // Hide all panels by default
+            document.getElementById('db-admin-panel').classList.add('hidden');
+            document.getElementById('network-engineer-panel').classList.add('hidden');
+            document.getElementById('default-panel').classList.add('hidden');
+
+            // Show the correct panel based on the user's role
+            if (currentUser.role === 'Database Admin') {
+                document.getElementById('db-admin-panel').classList.remove('hidden');
+            } else if (currentUser.role === 'Network Engineer') {
+                document.getElementById('network-engineer-panel').classList.remove('hidden');
+            } else {
+                document.getElementById('default-panel').classList.remove('hidden');
+                document.getElementById('default-panel').innerHTML = `<h2 class="text-xl font-semibold">${currentUser.role} UI coming soon.</h2>`;
+            }
+
+            setInterval(checkSessionStatus, 5000);
+        }
+
+        async function checkSessionStatus() {
+            try {
+                const response = await fetch('/api/user_info');
+                if (!response.ok) { window.location.href = '/access-revoked'; }
+            } catch (error) { window.location.href = '/login'; }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializePortal);
+    </script>
+</body>
+</html>

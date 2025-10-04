@@ -1,0 +1,9 @@
+hour,ip_is_local,action_type,user_role
+9,1,DB_CONNECT,Database Admin
+10,1,RUN_QUERY,Database Admin
+14,1,CHECK_STATUS,Database Admin
+2,0,RUN_QUERY,Database Admin
+19,1,SSH_ROUTER,Network Engineer
+11,1,GIT_PULL,App Developer
+23,0,UPDATE_IAM,Cloud Engineer
+1,0,DELETE_TABLE,Database Admin

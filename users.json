@@ -1,0 +1,14 @@
+{
+    "rperera.test@gmail.com": {
+        "name": "R. Perera",
+        "role": "Database Admin"
+    },
+    "sfernando.test@gmail.com": {
+        "name": "S. Fernando",
+        "role": "Network Engineer"
+    },
+    "asilva.test@gmail.com": {
+        "name": "A. Silva",
+        "role": "App Developer"
+    }
+}
