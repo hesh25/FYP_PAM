@@ -3,7 +3,7 @@ Reducing Security Risks with Privileged Access Management: Real-Time Authenticat
 
 Project Overview
 
-This repository contains the source code, documentation, and resources for the final year project (FYP) thesis titled "Reducing Security Risks with Privileged Access Management: Real-Time Authentication and User Behavior Analysis using ML" by Heshan Rajith (CB011557). The project was submitted to the Computing School at Staffordshire University in partial fulfillment of the requirements for the Degree of Bachelor of Science in Cyber Security (Hons), supervised by Ms. Ama Jayaweera, in August 2025, Colombo.
+This repository contains the source code, documentation, and resources for the final year project (FYP) thesis titled "Reducing Security Risks with Privileged Access Management: Real-Time Authentication and User Behavior Analysis using ML" by Heshan Rajith. The project was submitted to the Computing School at Staffordshire University in partial fulfillment of the requirements for the Degree of Bachelor of Science in Cyber Security (Hons), supervised by Ms. Ama Jayaweera, in August 2025, Colombo.
 
 Description
 
@@ -20,7 +20,7 @@ Python-based ML engine
 
 Installation
 
-Clone the repository: git clone https://github.com/yourusername/FYP_Thesis_PAM.git
+Clone the repository: git clone https://github.com/hesh25/FYP_PAM.git
 Navigate to the project directory: cd FYP_Thesis_PAM
 Install dependencies: pip install -r requirements.txt
 Run the application: python app.py with watcher.py to send the logs
